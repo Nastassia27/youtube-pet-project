@@ -18,7 +18,12 @@ ul,li{
 
 
 body{
-
+   /* font-family: 'PT Serif', serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color:#5e5e5e;
 }
 
 .header__top{
@@ -26,4 +31,9 @@ body{
 }
 .header__btn{
     float:right;
+    line-height: 36px;
+    font-family: 'PT Serif', serif;
+    color: #1b1b1b;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
 }
