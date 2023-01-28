@@ -18,12 +18,15 @@ ul,li{
 
 
 body{
-   /* font-family: 'PT Serif', serif;*/
-    font-family: 'Roboto', sans-serif;
+   font-family: 'PT Serif', serif;
+    /* font-family: 'Roboto', sans-serif;*/
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color:#5e5e5e;
+}
+header{
+    font-family: 'Roboto', sans-serif;
 }
 
 .header__top{
@@ -32,7 +35,7 @@ body{
 .header__btn{
     float:right;
     line-height: 36px;
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
     background-color: #ffc222;
     padding: 5px 20px 4px 50px;
@@ -44,10 +47,16 @@ clear:both;
 display:block;
 }
 
-.header__phone{
-    
+.header__phone,.header__email {
+    color:#cbcacb;
+    letter-spacing: 0.25px;
+    line-height: 45px;
 
 }
 .header__email{
-
+    padding-left: 24px;
+}
+.header__phone{
+    padding-left: 20px;
+    padding-right: 30px;
 }
