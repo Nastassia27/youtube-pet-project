@@ -24,3 +24,6 @@ body{
 .header__top{
     background-color: #303030;
 }
+.header__btn{
+    float:right;
+}
