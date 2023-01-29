@@ -7,3 +7,17 @@ function sumMix(x){
   }
 digitize(3457438)
 sumMix(45738);
+
+function alphabetPosition(text) {
+	var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+	return text.toLowerCase().split("").filter(function(x){
+		if (x.toLowerCase().match(/[a-z]/)) {
+			return x;
+		}
+	}).map(function(y){
+		if (alphabet.includes(y)) {
+			return (alphabet.indexOf(y)+1);
+		}
+	}).join(" ");
+}
+alphabetPosition("Hello world");
