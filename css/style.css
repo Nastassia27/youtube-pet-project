@@ -60,6 +60,10 @@ display:block;
     padding-left: 20px;
     padding-right: 30px;
 }
+.header__phone:before{
+    content: "\f095";
+    font-family: 'icomoon';
+}
 .header__content{
     padding: 34px 0px 23px;
 }
