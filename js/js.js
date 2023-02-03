@@ -1,4 +1,4 @@
-function digitize(num) {
+/*function digitize(num) {
     return num.toString().split('').reverse().map(Number);
 }
 
@@ -17,8 +17,8 @@ function alphabetPosition(text) {
 	}).map(function(y){
 		if (alphabet.includes(y)) {
 			return (alphabet.indexOf(y)+1);
+			return (alphabet.indexOf(y)+);
 		}
 	}).join(" ");
 }
-alphabetPosition("Hello world");
-
+alphabetPosition("Hello world");*/
