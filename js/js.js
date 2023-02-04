@@ -32,4 +32,5 @@ String.prototype.toAlternatingCase = function () {
 	   }
 	 }
 	 return str;
+	 return alphabetPosition ();
    }*/
