@@ -33,4 +33,12 @@ String.prototype.toAlternatingCase = function () {
 	 }
 	 return str;
 	 return alphabetPosition ();
-   }*/
+   }
+
+   // Will there be enough space?
+   function enough(cap, on, wait) {
+	let allPeople = on+wait;
+	if(cap>=allPeople){
+	  return 0;
+	} return allPeople-cap;
+  }*/
