@@ -41,10 +41,15 @@ String.prototype.toAlternatingCase = function () {
 	if(cap>=allPeople){
 	  return 0;
 	} return allPeople-cap;
-  }*/
+  }
   function reverseWords(str) {
 	let reverseWordArr = str.split(" ").map(word => word.split("").reverse().join(""));
   return reverseWordArr.join(" ");
   }
 
-  return reverseWords("Hello World");
+  return reverseWords("Hello World");*/
+  // replace !
+
+  function removeExclamationMarks(s) {
+	return s.replace(/\u0021/g, '');
+  }
