@@ -47,9 +47,18 @@ String.prototype.toAlternatingCase = function () {
   return reverseWordArr.join(" ");
   }
 
-  return reverseWords("Hello World");*/
+  return reverseWords("Hello World");
   // replace !
 
   function removeExclamationMarks(s) {
 	return s.replace(/\u0021/g, '');
   }
+
+  function powersOfTwo(n){
+	let arr=[];
+	for (let i = 0; i<=n; i++){
+	  let number = Math.pow(2, i);
+	  arr.push(number);
+	}
+	return arr;
+  }*/
