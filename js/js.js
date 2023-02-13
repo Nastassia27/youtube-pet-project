@@ -70,4 +70,12 @@ String.prototype.toAlternatingCase = function () {
 	  return a[0]
 	} 
 	return a[a.length-1]
+  }
+
+  function makeNegative(num) {
+	if(num>=0){
+	  num = num* -1
+	  
+	  }
+	return num;
   }*/
