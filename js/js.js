@@ -70,6 +70,7 @@ String.prototype.toAlternatingCase = function () {
 	  return a[0]
 	} 
 	return a[a.length-1]
+  }*/
+  function getStarted(min, max){
+	for(let i;i< min.length;)
   }
-
-  
