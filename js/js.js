@@ -61,7 +61,7 @@ String.prototype.toAlternatingCase = function () {
 	  arr.push(number);
 	}
 	return arr;
-  }
+  }*/
   //stray numbers
   function stray(numbers) {
 	var a = numbers.sort();
@@ -70,7 +70,6 @@ String.prototype.toAlternatingCase = function () {
 	  return a[0]
 	} 
 	return a[a.length-1]
-  }*/
-  function getStarted(min, max){
-	for(let i;i< min.length;)
+	return numbers;
+	return stray(12435232352);
   }
