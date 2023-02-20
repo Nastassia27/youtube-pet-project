@@ -61,7 +61,7 @@ String.prototype.toAlternatingCase = function () {
 	  arr.push(number);
 	}
 	return arr;
-  }*/
+  }
   //stray numbers
   function stray(numbers) {
 	var a = numbers.sort();
@@ -72,4 +72,15 @@ String.prototype.toAlternatingCase = function () {
 	return a[a.length-1]
 	return numbers;
 	return stray(12435232352);
+  }*/
+
+  //oposites attract
+  function lovefunc(flower1, flower2){
+  
+	if(flower1%2==0 && flower2%2!==0) {
+	  return true;
+	} else if (flower2%2==0 && flower1%2!==0){
+		return true;
+	  }
+	return false;
   }
