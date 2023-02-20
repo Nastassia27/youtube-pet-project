@@ -72,7 +72,7 @@ String.prototype.toAlternatingCase = function () {
 	return a[a.length-1]
 	return numbers;
 	return stray(12435232352);
-  }*/
+  }
 
   //oposites attract
   function lovefunc(flower1, flower2){
@@ -83,4 +83,19 @@ String.prototype.toAlternatingCase = function () {
 		return true;
 	  }
 	return false;
-  }
+  }*/
+  // rock paper scissors
+  const rps = (p1, p2) => {
+	if (p1 === p2) {
+	   return `Draw!`;
+	 }
+	 if (p1 === 'rock' && p2 === 'scissors') {
+	   return `Player 1 won!`;
+	 } else if (p1 === 'paper' && p2 === 'rock') {
+	   return `Player 1 won!`;
+	 } else if (p1 === 'scissors' && p2 === 'paper') {
+	   return `Player 1 won!`;
+	 } else {
+	   return `Player 2 won!`;
+	 }
+   };
